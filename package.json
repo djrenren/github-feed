@@ -1,0 +1,8 @@
+{
+  "name": "github-feed",
+  "description": "an example app for a talk on AngularJS",
+  "private": true,
+  "dependencies": {
+    "express": "latest"
+  }
+}
