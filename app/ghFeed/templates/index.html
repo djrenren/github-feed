@@ -10,6 +10,6 @@
 
 
   <div class="panel panel-default" ng-repeat="event in events">
-    <img class="github-avatar" src=""/>
-    <span><b>jmrenner</b> has done something</span>
+    <img class="github-avatar" ng-src="{{event.actor.avatar_url}}"/>
+    <span><b>{{event.actor.login}}</b> has done a {{event.type}}</span>
   </div>
