@@ -1,2 +1,2 @@
 
-angular.module('ghFeed', ['ghFeed.controllers.feed']);
+angular.module('ghFeed', ['ghFeedCtrl']);

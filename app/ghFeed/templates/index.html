@@ -1,15 +1,15 @@
  <br>
   <br>
-  <form  class="form-group">
+  <form  class="form-group" ng-submit="loadEvents()">
     <label for="name">Username:</label>
-    <input type="text" name="name">
+    <input type="text" name="name" ng-model="user">
     <label for="password">Password:</label>
-    <input type="password" name="password">
+    <input type="password" name="password" ng-model="password">
     <button type="submit">Load Events</button>
   </form>
 
 
-  <div class="panel panel-default">
+  <div class="panel panel-default" ng-repeat="event in events">
     <img class="github-avatar" src=""/>
     <span><b>jmrenner</b> has done something</span>
   </div>
